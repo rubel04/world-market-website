@@ -1,3 +1,8 @@
+.lora-font {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+  }
+  
 nav a::after{
     /* border-bottom: 2px solid red;*/
     content: '';
@@ -10,4 +15,10 @@ nav a::after{
 }
 nav a:hover::after{
     width: 100%;
+}
+.need-bg{
+    background-image: url('./asset/need-help.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
